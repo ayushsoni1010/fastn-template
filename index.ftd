@@ -1,40 +1,170 @@
--- ds.page: Welcome to doc-site
+-- import: package/base-layout as layout
+-- import: package/header as navbar
+-- import: package/toast as toast
+-- import: package/lib as lib
+-- import: package/button as button
+-- import: package/social-buttons as social
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+;; -------------------------------------------------------------------------
+;; ***** PORTFOLIO Layout starts *****
+;; -------------------------------------------------------------------------
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- layout.base-layout:
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
+;; ----------------------------------------------------------------
+;; ***** PORTFOLIO Header starts *****
+;; ----------------------------------------------------------------
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- navbar.header:
+logo: $assets.files.images.logo.svg
+logoURL: /YOUR_REPOSITORY_NAME
+header-item1: Home
+header-item2: About
+header-item3: Blogs
+header-item4: Projects
+header-item1-link: /YOUR_REPOSITORY_NAME
+header-item2-link: /YOUR_REPOSITORY_NAME/about
+header-item3-link: /YOUR_REPOSITORY_NAME/blogs
+header-item4-link: /YOUR_REPOSITORY_NAME/projects
+cta-item2: Resume
+cta-item2-link: /YOUR_REPOSITORY_NAME/resume
 
--- ds.h2: Learn fastn and become a pro?
+;; ----------------------------------------------------------------
+;; ***** PORTFOLIO Header ends *****
+;; ----------------------------------------------------------------
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
--- end: ds.page
+
+;; -----------------------------------------------------
+;; ***** PORTFOLIO Toast starts *****
+;; -----------------------------------------------------
+
+-- toast.stack:
+title: Hello, I'm aspiring fastn developer based in India
+link: https://github.com/YOUR_GITHUB_USERNAME
+
+;; -----------------------------------------------------
+;; ***** PORTFOLIO Toast ends *****
+;; -----------------------------------------------------
+
+
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI starts *****
+;; ------------------------------------------
+
+-- ftd.container:
+
+-- ftd.row:
+margin-top.px: 60
+spacing.fixed.px: 20
+
+;; ------------------------------------------
+;; ------------------------------------------
+
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: YOUR_NAME,
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: frontend
+secondTitle: developer
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and
+secondTitle: explorer.
+
+-- ftd.text: design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+width.fixed.px: 700
+
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary:
+title: Hire me
+link: mailto:YOUR_EMAIL_ADDRESS
+
+-- button.primary:
+title: Schedule a Meeting
+link: YOUR_MEETING_HANLDE
+isNewTab: true
+
+-- end: ftd.row
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials starts *****
+;; --------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/YOUR_TWITTER_USERNAME
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/YOUR_GITHUB_USERNAME
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+image: $assets.files.images.instagram.png
+
+-- social.social-button-wrapper:
+link: mailto:YOUR_EMAIL_ADDRESS
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials ends *****
+;; --------------------------------
+
+
+
+-- end: ftd.column
+
+;; ------------------------------------------
+;; ------------------------------------------
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 400
+
+-- end: ftd.row
+
+-- end: ftd.container
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI ends *****
+;; ------------------------------------------
+
+
+
+-- end: layout.base-layout
+
+;; -------------------------------------------------------------------------
+;; ***** PORTFOLIO Layout ends *****
+;; -------------------------------------------------------------------------
