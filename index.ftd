@@ -61,7 +61,7 @@ link: https://github.com/YOUR_GITHUB_USERNAME
 
 -- ftd.row:
 margin-top.px: 60
-spacing.fixed.px: 20
+spacing.fixed.px: 100
 
 ;; ------------------------------------------
 ;; ------------------------------------------
