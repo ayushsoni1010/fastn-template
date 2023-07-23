@@ -1,0 +1,17 @@
+-- import: package/base-layout
+
+-- import: package/header asheader
+
+--layout.base-layout:
+
+--navbar.header:
+logo: $assets.files.image.logo.svg
+logoURL: /portfolio
+header-item-1: Home
+header-item-2: About
+header-item-3: Contact
+header-item-4: Project
+
+header-item-link-1: /portfolio
+header-item-link-2: /
+
