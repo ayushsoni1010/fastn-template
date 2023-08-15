@@ -57,6 +57,100 @@ link: https://github.com/YOUR_GITHUB_USERNAME
 padding-bottom.px: 20
 
 ;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Desktop view starts *****
+;; ------------------------------------------
+
+-- ftd.desktop:
+-- ftd.row:
+margin-top.px: 60
+spacing.fixed.px: 100
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: YOUR_NAME,
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: frontend
+secondTitle: developer
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and
+secondTitle: explorer.
+
+-- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+max-width.fixed.px: 700
+min-width.fixed.px: 450
+white-space: normal
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary:
+title: Hire me
+link: mailto:YOUR_EMAIL_ADDRESS
+
+-- button.primary:
+title: Schedule a Meeting
+link: YOUR_MEETING_HANLDE
+isNewTab: true
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials starts *****
+;; --------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/YOUR_TWITTER_USERNAME
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/YOUR_GITHUB_USERNAME
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+image: $assets.files.images.instagram.png
+
+-- social.social-button-wrapper:
+link: mailto:YOUR_EMAIL_ADDRESS
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials ends *****
+;; --------------------------------
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 400
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; ------------------------------------------
+
+;; -----------------------------------------------------
+;; -----------------------------------------------------
+
+;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Mobile view starts *****
 ;; ------------------------------------------
 
@@ -149,101 +243,6 @@ image: $assets.files.images.mail.png
 
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Mobile view ends *****
-;; ------------------------------------------
-
-;; ----------------------------------------------------------------
-;; ----------------------------------------------------------------
-
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view starts *****
-;; ------------------------------------------
-
--- ftd.desktop:
--- ftd.row:
-margin-top.px: 60
-spacing.fixed.px: 100
--- ftd.column:
-spacing.fixed.px: 20
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: I'm
-secondTitle: YOUR_NAME,
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
-secondTitle: developer
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: and
-secondTitle: explorer.
-
--- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
-role: $lib.home-description-responsive-typography
-margin-top.px: 10
-max-width.fixed.px: 700
-min-width.fixed.px: 450
-white-space: normal
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- button.secondary:
-title: Hire me
-link: mailto:YOUR_EMAIL_ADDRESS
-
--- button.primary:
-title: Schedule a Meeting
-link: YOUR_MEETING_HANLDE
-isNewTab: true
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
-;; --------------------------------
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- social.social-button-wrapper:
-link: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
-image: $assets.files.images.linkedin.png
-
--- social.social-button-wrapper:
-link: https://twitter.com/YOUR_TWITTER_USERNAME
-image: $assets.files.images.twitter.png
-
--- social.social-button-wrapper:
-link: https://github.com/YOUR_GITHUB_USERNAME
-image: $assets.files.images.github.png
-
--- social.social-button-wrapper:
-link: https://instagram.com/YOUR_INSTAGRAM_USERNAME
-image: $assets.files.images.instagram.png
-
--- social.social-button-wrapper:
-link: mailto:YOUR_EMAIL_ADDRESS
-image: $assets.files.images.mail.png
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
-;; --------------------------------
-
--- end: ftd.column
-
--- ftd.image:
-src: $assets.files.images.developer.png
-width.fixed.px: 400
-
--- end: ftd.row
-
--- end: ftd.desktop
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view ends *****
 ;; ------------------------------------------
 
 -- end: ftd.container
