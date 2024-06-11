@@ -214,7 +214,7 @@ link: https://linkedin.com/in/kanav-gagrani-b7635a24b
 image: $assets.files.images.linkedin.png
 
 -- social.social-button-wrapper:
-link: https://twitter.com/_gagrani_
+link: https://twitter.com/_gagrani
 image: $assets.files.images.twitter.png
 
 -- social.social-button-wrapper:
